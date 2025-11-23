@@ -10,7 +10,19 @@ export const metadata: Metadata = {
   title: "SitiosDeApuestasPE - Análisis Profesional de Casas de Apuestas en Perú",
   description:
     "Análisis experto y rankings actualizados de las mejores casas de apuestas deportivas en Perú. Comparativas detalladas, bonos exclusivos y guías completas para apostadores peruanos.",
-    generator: 'v0.app'
+  keywords: [
+    "casas de apuestas Perú",
+    "apuestas deportivas Perú",
+    "mejores casas de apuestas",
+    "bonos de apuestas Perú",
+    "análisis de casas de apuestas",
+    "rankings de apuestas deportivas",
+    "apuestas en línea Perú",
+    "comparativa casas de apuestas",
+    "guía de apuestas deportivas",
+    "sitios de apuestas confiables",
+  ],
+  metadataBase: new URL("https://www.sitiosdeapuestaspe.com"),
 }
 
 export default function RootLayout({
