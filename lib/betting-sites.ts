@@ -14,15 +14,16 @@ export interface BettingSite {
 }
 
 export const bettingSites: BettingSite[] = [
-    {
+  {
     rank: 1,
     name: "Inkabet",
     logo: "/inkabet-logo.svg",
     rating: 9.7,
-    destacado: "S/50 de apuesta gratis en deportes",
+    destacado: "S/50 en Apuesta Gratis para Deportes",
     descripcion: "Casa de apuestas peruana con enfoque local",
     ventajas: ["Adaptada al mercado peruano", "Pagos en soles", "Atención personalizada"],
     url: "https://inkabet.pe/",
+    badgeText: "Nuestra Elección",
     reviewsCount: 1521,
     terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
   },
@@ -32,7 +33,7 @@ export const bettingSites: BettingSite[] = [
     name: "Betsafe",
     logo: "/betsafe.svg",
     rating: 9.5,
-    destacado: "Bono de Bienvenida hasta S/70",
+    destacado: "¡Oferta de Bienvenida de S/70!",
     descripcion: "Plataforma segura con amplia variedad de mercados deportivos",
     ventajas: ["Transmisiones en vivo", "Soporte 24/7", "Múltiples métodos de pago"],
     isRecomendado: true,
@@ -46,7 +47,7 @@ export const bettingSites: BettingSite[] = [
     name: "CoolBet",
     logo: "/coolbet.svg",
     rating: 9.4,
-    destacado: "Gana hasta S/200 en tu primer depósito",
+    destacado: "Gana Hasta S/200",
     descripcion: "Interface moderna y experiencia de usuario excepcional",
     ventajas: ["Diseño intuitivo", "Estadísticas en tiempo real", "Cash out disponible"],
     isRecomendado: true,
@@ -55,16 +56,16 @@ export const bettingSites: BettingSite[] = [
     reviewsCount: 1756,
     terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
   },
-    {
+  {
     rank: 4,
     name: "Betsson",
     logo: "/betsson.png",
     rating: 9.2,
-    destacado: "Apuesta Gratis S/50 + 10 Giros Gratis",
+    destacado: "¡Apuesta Gratis de S/50 y 10 Giros Gratis con tu Primer Depósito!",
     descripcion: "Líder en apuestas deportivas con las mejores cuotas del mercado peruano",
     ventajas: ["Cuotas competitivas", "App móvil excelente", "Retiros rápidos"],
     isRecomendado: true,
-    badgeText: "Nuestra Elección", // Added unique badge for rank 1
+    // Added unique badge for rank 1
     url: "https://www.betsson.pe/",
     reviewsCount: 1284,
     terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
@@ -74,7 +75,7 @@ export const bettingSites: BettingSite[] = [
     name: "Betcris",
     logo: "/betcris.png",
     rating: 9.0,
-    destacado: "100% de bono en tu primer depósito",
+    destacado: "Recibe el 100% Extra de tu Primer Depósito",
     descripcion: "Experiencia consolidada en el mercado latinoamericano",
     ventajas: ["Cobertura extensa de ligas", "Promociones semanales", "Apuestas en vivo"],
     url: "https://www.betcris.pe/",

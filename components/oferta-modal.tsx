@@ -16,7 +16,7 @@ export function OfertaModal() {
         setIsOpen(true)
         sessionStorage.setItem("offer-modal-shown", "true")
       }
-    }, 3000)
+    }, 8000)
 
     return () => clearTimeout(timer)
   }, [])
@@ -34,7 +34,7 @@ export function OfertaModal() {
         <div key={i} className="relative inline-block">
           <Star className="w-6 h-6 text-muted" />
           <div className="absolute top-0 left-0 overflow-hidden" style={{ width: `${fillPercentage}%` }}>
-            <Star className="w-6 h-6 text-accent fill-accent" />
+            <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
           </div>
         </div>,
       )
@@ -61,8 +61,8 @@ export function OfertaModal() {
             <p className="text-muted-foreground">La mejor casa de apuestas deportivas de Perú</p>
           </div>
 
-          <div className="flex items-center justify-center mb-6">
-            <div className="relative w-40 h-20">
+          <div className="flex items-center justify-center mb-6  bg-black p-2 rounded-lg">
+            <div className="relative w-56 h-24">
               <Image src={topSite.logo || "/placeholder.svg"} alt={topSite.name} fill className="object-contain" />
             </div>
           </div>
