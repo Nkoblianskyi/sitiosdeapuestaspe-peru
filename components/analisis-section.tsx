@@ -150,22 +150,18 @@ export function AnalisisSection() {
           <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Criterios de Evaluación</h3>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
-              <Shield className="h-8 w-8 text-primary mx-auto mb-3" />
               <h4 className="font-bold text-foreground mb-2">Seguridad</h4>
               <p className="text-sm text-muted-foreground">Licencias MINCETUR y protección de datos</p>
             </div>
             <div className="text-center">
-              <TrendingUp className="h-8 w-8 text-accent mx-auto mb-3" />
               <h4 className="font-bold text-foreground mb-2">Cuotas</h4>
               <p className="text-sm text-muted-foreground">Comparación de odds en tiempo real</p>
             </div>
             <div className="text-center">
-              <Award className="h-8 w-8 text-primary mx-auto mb-3" />
               <h4 className="font-bold text-foreground mb-2">Bonos</h4>
               <p className="text-sm text-muted-foreground">Promociones exclusivas para Perú</p>
             </div>
             <div className="text-center">
-              <CheckCircle2 className="h-8 w-8 text-accent mx-auto mb-3" />
               <h4 className="font-bold text-foreground mb-2">Confianza</h4>
               <p className="text-sm text-muted-foreground">Reseñas verificadas de usuarios</p>
             </div>

@@ -49,20 +49,20 @@ export function BettingSiteCard({ site }: BettingSiteCardProps) {
       <div className="p-8">
         {/* Desktop Layout */}
         <div className="hidden md:block space-y-4">
-          <div className="grid grid-cols-11 gap-6 items-center">
+          <div className="grid grid-cols-12 gap-6 items-center">
             {/* Rank number */}
             <div className="col-span-1 flex items-center justify-center">
               <div className="text-3xl font-bold text-muted-foreground">#{site.rank}</div>
             </div>
 
             {/* Logo */}
-            <div className="col-span-2 flex items-center justify-center">
+            <div className="col-span-3 flex items-center justify-center bg-black p-2 rounded-lg">
               <Image
                 src={site.logo || "/placeholder.svg"}
                 alt={`${site.name} logo`}
-                width={120}
-                height={48}
-                className="h-12 w-auto object-contain"
+                width={196}
+                height={96} 
+                className="h-24 w-auto object-contain"
               />
             </div>
 

@@ -14,11 +14,52 @@ export interface BettingSite {
 }
 
 export const bettingSites: BettingSite[] = [
-  {
+    {
     rank: 1,
+    name: "Inkabet",
+    logo: "/inkabet-logo.svg",
+    rating: 9.7,
+    destacado: "S/50 de apuesta gratis en deportes",
+    descripcion: "Casa de apuestas peruana con enfoque local",
+    ventajas: ["Adaptada al mercado peruano", "Pagos en soles", "Atención personalizada"],
+    url: "https://inkabet.pe/",
+    reviewsCount: 1521,
+    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
+  },
+
+  {
+    rank: 2,
+    name: "Betsafe",
+    logo: "/betsafe.svg",
+    rating: 9.5,
+    destacado: "Bono de Bienvenida hasta S/70",
+    descripcion: "Plataforma segura con amplia variedad de mercados deportivos",
+    ventajas: ["Transmisiones en vivo", "Soporte 24/7", "Múltiples métodos de pago"],
+    isRecomendado: true,
+    badgeText: "Tendencia", // Added trending badge for rank 2
+    url: "https://www.betsafe.pe/es",
+    reviewsCount: 1892,
+    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
+  },
+  {
+    rank: 3,
+    name: "CoolBet",
+    logo: "/coolbet.svg",
+    rating: 9.4,
+    destacado: "Gana hasta S/200 en tu primer depósito",
+    descripcion: "Interface moderna y experiencia de usuario excepcional",
+    ventajas: ["Diseño intuitivo", "Estadísticas en tiempo real", "Cash out disponible"],
+    isRecomendado: true,
+    badgeText: "Mejor Bono", // Added best bonus badge for rank 3
+    url: "https://www.coolbet.pe/pe",
+    reviewsCount: 1756,
+    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
+  },
+    {
+    rank: 4,
     name: "Betsson",
     logo: "/betsson.png",
-    rating: 9.8,
+    rating: 9.2,
     destacado: "Apuesta Gratis S/50 + 10 Giros Gratis",
     descripcion: "Líder en apuestas deportivas con las mejores cuotas del mercado peruano",
     ventajas: ["Cuotas competitivas", "App móvil excelente", "Retiros rápidos"],
@@ -29,57 +70,18 @@ export const bettingSites: BettingSite[] = [
     terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
   },
   {
-    rank: 2,
-    name: "Betsafe",
-    logo: "/betsafe.svg",
-    rating: 9.7,
-    destacado: "Bono de Bienvenida hasta S/70",
-    descripcion: "Plataforma segura con amplia variedad de mercados deportivos",
-    ventajas: ["Transmisiones en vivo", "Soporte 24/7", "Múltiples métodos de pago"],
-    isRecomendado: true,
-    badgeText: "Tendencia", // Added trending badge for rank 2
-    url: "https://www.betsafe.pe/es",
-    reviewsCount: 892,
-    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
-  },
-  {
-    rank: 3,
-    name: "CoolBet",
-    logo: "/coolbet.svg",
-    rating: 9.5,
-    destacado: "Gana hasta S/200 en tu primer depósito",
-    descripcion: "Interface moderna y experiencia de usuario excepcional",
-    ventajas: ["Diseño intuitivo", "Estadísticas en tiempo real", "Cash out disponible"],
-    isRecomendado: true,
-    badgeText: "Mejor Bono", // Added best bonus badge for rank 3
-    url: "https://www.coolbet.pe/pe",
-    reviewsCount: 756,
-    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
-  },
-  {
-    rank: 4,
+    rank: 5,
     name: "Betcris",
     logo: "/betcris.png",
-    rating: 9.3,
+    rating: 9.0,
     destacado: "100% de bono en tu primer depósito",
     descripcion: "Experiencia consolidada en el mercado latinoamericano",
     ventajas: ["Cobertura extensa de ligas", "Promociones semanales", "Apuestas en vivo"],
     url: "https://www.betcris.pe/",
-    reviewsCount: 623,
+    reviewsCount: 1623,
     terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
   },
-  {
-    rank: 5,
-    name: "Inkabet",
-    logo: "/inkabet-logo.svg",
-    rating: 9.1,
-    destacado: "S/50 de apuesta gratis en deportes",
-    descripcion: "Casa de apuestas peruana con enfoque local",
-    ventajas: ["Adaptada al mercado peruano", "Pagos en soles", "Atención personalizada"],
-    url: "https://inkabet.pe/",
-    reviewsCount: 521,
-    terms: "T&C Aplican. +18. Juega responsablemente.", // Added terms
-  },
+
 ]
 
 export const getTopSite = (): BettingSite => {

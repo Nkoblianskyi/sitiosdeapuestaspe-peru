@@ -9,7 +9,10 @@ export function SiteFooter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-black mb-4">SitiosDeApuestasPE</h3>
+            <div className="flex items-center mb-4 gap-4">
+              <Image src="/favicon.ico" alt="SitiosDeApuestasPE Logo" width={36} height={48} />
+              <h3 className="text-2xl font-bold text-red-600">Sitios<span className="text-white">DeApuestas</span>PE</h3>
+            </div>
             <p className="text-accent-foreground/80 mb-4 leading-relaxed">
               Tu guía confiable para encontrar las mejores casas de apuestas deportivas en Perú. Análisis profesionales,
               comparativas actualizadas y recomendaciones basadas en evaluaciones rigurosas.
@@ -62,7 +65,7 @@ export function SiteFooter() {
               className="hover:opacity-80 transition-opacity bg-background p-3 rounded-lg"
               aria-label="MINCETUR Perú"
             >
-              <Image src="/mincetur-peru-logo.jpg" alt="MINCETUR" width={100} height={60} className="h-12 w-auto" />
+              <Image src="/mincetur.svg" alt="MINCETUR" width={100} height={60} className="h-12 w-auto" />
             </Link>
             <Link
               href="https://www.gamcare.org.uk"
@@ -71,18 +74,18 @@ export function SiteFooter() {
               className="hover:opacity-80 transition-opacity bg-background p-3 rounded-lg"
               aria-label="GamCare"
             >
-              <Image src="/gamcare.png" alt="GamCare" width={100} height={60} className="h-12 w-auto" />
+              <Image src="/gamecare.svg" alt="GamCare" width={100} height={60} className="h-12 w-auto" />
             </Link>
             <Link
-              href="https://www.begambleaware.org"
+              href="https://www.gambleaware.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity bg-background p-3 rounded-lg"
               aria-label="BeGambleAware"
             >
               <Image
-                src="/begambleaware-logo.png"
-                alt="BeGambleAware"
+                src="/gamble.webp"
+                alt="GambleAware"
                 width={100}
                 height={60}
                 className="h-12 w-auto"

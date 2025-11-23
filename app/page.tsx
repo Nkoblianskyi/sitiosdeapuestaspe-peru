@@ -24,15 +24,17 @@ export default function HomePage() {
       <div className="relative z-10">
         <SiteHeader />
         <HeroBanner />
-        <div id="rankings" className="scroll-mt-20">
+        <div id="rankings" className="scroll-mt-20 ">
           <ComparativaTable />
         </div>
-        <div id="analisis" className="scroll-mt-20">
+        <div className="max-w-[1050px] mx-auto px-4 py-16">
+          <div id="analisis" className="scroll-mt-20 ">
           <AnalisisSection />
         </div>
         <NuestraSeleccion />
         <div id="preguntas" className="scroll-mt-20">
           <PreguntasSection />
+        </div>
         </div>
         <SiteFooter />
 
